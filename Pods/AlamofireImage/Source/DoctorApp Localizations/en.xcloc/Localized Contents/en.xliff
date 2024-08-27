@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 http://docs.oasis-open.org/xliff/v1.2/os/xliff-core-1.2-strict.xsd">
+  <file original="DoctorApp/Base.lproj/Main.storyboard" source-language="en" target-language="en" datatype="plaintext">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="15.1" build-num="15C65"/>
+    </header>
+    <body>
+      <trans-unit id="0Kg-JU-dg9.text" xml:space="preserve">
+        <source>Choose Language</source>
+        <target state="new">Choose Language</target>
+        <note>Class = "UILabel"; text = "Choose Language"; ObjectID = "0Kg-JU-dg9";</note>
+      </trans-unit>
+      <trans-unit id="2V5-lB-pWv.text" xml:space="preserve">
+        <source>to Doctor's Appointment App</source>
+        <target state="new">to Doctor's Appointment App</target>
+        <note>Class = "UILabel"; text = "to Doctor's Appointment App"; ObjectID = "2V5-lB-pWv";</note>
+      </trans-unit>
+      <trans-unit id="02r-d4-pyt.text" xml:space="preserve">
+        <source>MORE SAVED PLACES</source>
+        <target state="new">MORE SAVED PLACES</target>
+        <note>Class = "UILabel"; text = "MORE SAVED PLACES"; ObjectID = "02r-d4-pyt";</note>
+      </trans-unit>
+      <trans-unit id="6Mq-Xm-6pf.text" xml:space="preserve">
+        <source>Verify Number</source>
+        <target state="new">Verify Number</target>
+        <note>Class = "UILabel"; text = "Verify Number"; ObjectID = "6Mq-Xm-6pf";</note>
+      </trans-unit>
+      <trans-unit id="7BO-dT-sgf.text" xml:space="preserve">
+        <source>Favourites</source>
+        <target state="new">Favourites</target>
+        <note>Class = "UILabel"; text = "Favourites"; ObjectID = "7BO-dT-sgf";</note>
+      </trans-unit>
+      <trans-unit id="8eW-5J-w4W.text" xml:space="preserve">
+        <source>Password</source>
+        <target state="new">Password</target>
+        <note>Class = "UILabel"; text = "Password"; ObjectID = "8eW-5J-w4W";</note>
+      </trans-unit>
+      <trans-unit id="8wa-WE-QiX.normalTitle" xml:space="preserve">
+        <source>Button</source>
+        <target state="new">Button</target>
+        <note>Class = "UIButton"; normalTitle = "Button"; ObjectID = "8wa-WE-QiX";</note>
+      </trans-unit>
+      <trans-unit id="9jM-5i-Vk1.text" xml:space="preserve">
+        <source>Verify Number</source>
+        <target state="new">Verify Number</target>
+        <note>Class = "UILabel"; text = "Verify Number"; ObjectID = "9jM-5i-Vk1";</note>
+      </trans-unit>
+      <trans-unit id="56E-a6-gp3.configuration.title" xml:space="preserve">
+        <source>Let's get started</source>
+        <target state="new">Let's get started</target>
+        <note>Class = "UIButton"; configuration.title = "Let's get started"; ObjectID = "56E-a6-gp3";</note>
+      </trans-unit>
+      <trans-unit id="56E-a6-gp3.normalTitle" xml:space="preserve">
+        <source>Button</source>
+        <target state="new">Button</target>
+        <note>Class = "UIButton"; normalTitle = "Button"; ObjectID = "56E-a6-gp3";</note>
+      </trans-unit>
+      <trans-unit id="A7Q-wN-jny.text" xml:space="preserve">
+        <source>Find a Doctor</source>
+        <target state="new">Find a Doctor</target>
+        <note>Class = "UILabel"; text = "Find a Doctor"; ObjectID = "A7Q-wN-jny";</note>
+      </trans-unit>
+      <trans-unit id="AL5-cJ-On4.text" xml:space="preserve">
+        <source>Register</source>
+        <target state="new">Register</target>
+        <note>Class = "UILabel"; text = "Register"; ObjectID = "AL5-cJ-On4";</note>
+      </trans-unit>
+      <trans-unit id="C66-dG-dAn.text" xml:space="preserve">
+        <source> Tap Next to Verify Your Account With Account Kit </source>
+        <target state="new"> Tap Next to Verify Your Account With Account Kit </target>
+        <note>Class = "UILabel"; text = " Tap Next to Verify Your Account With Account Kit "; ObjectID = "C66-dG-dAn";</note>
+      </trans-unit>
+      <trans-unit id="CDy-JJ-8ut.text" xml:space="preserve">
+        <source>Find a Hospital</source>
+        <target state="new">Find a Hospital</target>
+        <note>Class = "UILabel"; text = "Find a Hospital"; ObjectID = "CDy-JJ-8ut";</note>
+      </trans-unit>
+      <trans-unit id="Cfl-4t-Zt5.normalTitle" xml:space="preserve">
+        <source>Button</source>
+        <target state="new">Button</target>
+        <note>Class = "UIButton"; normalTitle = "Button"; ObjectID = "Cfl-4t-Zt5";</note>
+      </trans-unit>
+      <trans-unit id="Cso-L7-BBw.text" xml:space="preserve">
+        <source>Verified by Facebook</source>
+        <target state="new">Verified by Facebook</target>
+        <note>Class = "UILabel"; text = "Verified by Facebook"; ObjectID = "Cso-L7-BBw";</note>
+      </trans-unit>
+      <trans-unit id="Cuc-Pi-z74.text" xml:space="preserve">
+        <source>I DID'T GET CODE</source>
+        <target state="new">I DID'T GET CODE</target>
+        <note>Class = "UILabel"; text = "I DID'T GET CODE"; ObjectID = "Cuc-Pi-z74";</note>
+      </trans-unit>
+      <trans-unit id="Gey-D5-XZT.configuration.title" xml:space="preserve">
+        <source>BOOK APPIONTMENT</source>
+        <target state="new">BOOK APPIONTMENT</target>
+        <note>Class = "UIButton"; configuration.title = "BOOK APPIONTMENT"; ObjectID = "Gey-D5-XZT";</note>
+      </trans-unit>
+      <trans-unit id="Gey-D5-XZT.normalTitle" xml:space="preserve">
+        <source>Button</source>
+        <target state="new">Button</target>
+        <note>Class = "UIButton"; normalTitle = "Button"; ObjectID = "Gey-D5-XZT";</note>
+      </trans-unit>
+      <trans-unit id="HPo-rm-7jL.text" xml:space="preserve">
+        <source>English</source>
+        <target state="new">English</target>
+        <note>Class = "UILabel"; text = "English"; ObjectID = "HPo-rm-7jL";</note>
+      </trans-unit>
+      <trans-unit id="Hdx-qz-0fX.text" xml:space="preserve">
+        <source>Last Name</source>
+        <target state="new">Last Name</target>
+        <note>Class = "UILabel"; text = "Last Name"; ObjectID = "Hdx-qz-0fX";</note>
+      </trans-unit>
+      <trans-unit id="Jpb-WW-QKI.configuration.title" xml:space="preserve">
+        <source>CONTINUE</source>
+        <target state="new">CONTINUE</target>
+        <note>Class = "UIButton"; configuration.title = "CONTINUE"; ObjectID = "Jpb-WW-QKI";</note>
+      </trans-unit>
+      <trans-unit id="Jpb-WW-QKI.normalTitle" xml:space="preserve">
+        <source>Button</source>
+        <target state="new">Button</target>
+        <note>Class = "UIButton"; normalTitle = "Button"; ObjectID = "Jpb-WW-QKI";</note>
+      </trans-unit>
+      <trans-unit id="L4U-bK-CH3.text" xml:space="preserve">
+        <source>I have read and agreed the Terms and Conditions</source>
+        <target state="new">I have read and agreed the Terms and Conditions</target>
+        <note>Class = "UILabel"; text = "I have read and agreed the Terms and Conditions"; ObjectID = "L4U-bK-CH3";</note>
+      </trans-unit>
+      <trans-unit id="L5N-3e-np7.configuration.title" xml:space="preserve">
+        <source>Register</source>
+        <target state="new">Register</target>
+        <note>Class = "UIButton"; configuration.title = "Register"; ObjectID = "L5N-3e-np7";</note>
+      </trans-unit>
+      <trans-unit id="L5N-3e-np7.normalTitle" xml:space="preserve">
+        <source>Button</source>
+        <target state="new">Button</target>
+        <note>Class = "UIButton"; normalTitle = "Button"; ObjectID = "L5N-3e-np7";</note>
+      </trans-unit>
+      <trans-unit id="LuY-TE-dl4.text" xml:space="preserve">
+        <source>Message Centre</source>
+        <target state="new">Message Centre</target>
+        <note>Class = "UILabel"; text = "Message Centre"; ObjectID = "LuY-TE-dl4";</note>
+      </trans-unit>
+      <trans-unit id="NAI-WY-uIt.text" xml:space="preserve">
+        <source>Welcome</source>
+        <target state="new">Welcome</target>
+        <note>Class = "UILabel"; text = "Welcome"; ObjectID = "NAI-WY-uIt";</note>
+      </trans-unit>
+      <trans-unit id="OJI-LL-EpA.text" xml:space="preserve">
+        <source>Email</source>
+        <target state="new">Email</target>
+        <note>Class = "UILabel"; text = "Email"; ObjectID = "OJI-LL-EpA";</note>
+      </trans-unit>
+      <trans-unit id="PI2-BM-LaE.text" xml:space="preserve">
+        <source>Manage the data you share with us</source>
+        <target state="new">Manage the data you share with us</target>
+        <note>Class = "UILabel"; text = "Manage the data you share with us"; ObjectID = "PI2-BM-LaE";</note>
+      </trans-unit>
+      <trans-unit id="R4n-7e-maX.text" xml:space="preserve">
+        <source>First Name</source>
+        <target state="new">First Name</target>
+        <note>Class = "UILabel"; text = "First Name"; ObjectID = "R4n-7e-maX";</note>
+      </trans-unit>
+      <trans-unit id="VDD-VG-p2T.text" xml:space="preserve">
+        <source>Sehedule Consultation</source>
+        <target state="new">Sehedule Consultation</target>
+        <note>Class = "UILabel"; text = "Sehedule Consultation"; ObjectID = "VDD-VG-p2T";</note>
+      </trans-unit>
+      <trans-unit id="Vqj-Ok-XV8.text" xml:space="preserve">
+        <source>Label</source>
+        <target state="new">Label</target>
+        <note>Class = "UILabel"; text = "Label"; ObjectID = "Vqj-Ok-XV8";</note>
+      </trans-unit>
+      <trans-unit id="W5F-cO-MYF.normalTitle" xml:space="preserve">
+        <source>Button</source>
+        <target state="new">Button</target>
+        <note>Class = "UIButton"; normalTitle = "Button"; ObjectID = "W5F-cO-MYF";</note>
+      </trans-unit>
+      <trans-unit id="WRZ-Cw-iFg.normalTitle" xml:space="preserve">
+        <source>Button</source>
+        <target state="new">Button</target>
+        <note>Class = "UIButton"; normalTitle = "Button"; ObjectID = "WRZ-Cw-iFg";</note>
+      </trans-unit>
+      <trans-unit id="WSk-P3-H2h.normalTitle" xml:space="preserve">
+        <source>Button</source>
+        <target state="new">Button</target>
+        <note>Class = "UIButton"; normalTitle = "Button"; ObjectID = "WSk-P3-H2h";</note>
+      </trans-unit>
+      <trans-unit id="WVu-mv-WFA.text" xml:space="preserve">
+        <source>Search ..... Dr.medical care . etc,</source>
+        <target state="new">Search ..... Dr.medical care . etc,</target>
+        <note>Class = "UISearchBar"; text = "Search ..... Dr.medical care . etc,"; ObjectID = "WVu-mv-WFA";</note>
+      </trans-unit>
+      <trans-unit id="WkI-Pr-VOP.text" xml:space="preserve">
+        <source>Label</source>
+        <target state="new">Label</target>
+        <note>Class = "UILabel"; text = "Label"; ObjectID = "WkI-Pr-VOP";</note>
+      </trans-unit>
+      <trans-unit id="XcF-DO-mTk.normalTitle" xml:space="preserve">
+        <source>Button</source>
+        <target state="new">Button</target>
+        <note>Class = "UIButton"; normalTitle = "Button"; ObjectID = "XcF-DO-mTk";</note>
+      </trans-unit>
+      <trans-unit id="aap-IQ-7Ww.text" xml:space="preserve">
+        <source>Enter the Code that was sent to</source>
+        <target state="new">Enter the Code that was sent to</target>
+        <note>Class = "UILabel"; text = "Enter the Code that was sent to"; ObjectID = "aap-IQ-7Ww";</note>
+      </trans-unit>
+      <trans-unit id="eU6-Pk-L1P.text" xml:space="preserve">
+        <source>Add Home</source>
+        <target state="new">Add Home</target>
+        <note>Class = "UILabel"; text = "Add Home"; ObjectID = "eU6-Pk-L1P";</note>
+      </trans-unit>
+      <trans-unit id="gNx-cW-qCz.normalTitle" xml:space="preserve">
+        <source>Button</source>
+        <target state="new">Button</target>
+        <note>Class = "UIButton"; normalTitle = "Button"; ObjectID = "gNx-cW-qCz";</note>
+      </trans-unit>
+      <trans-unit id="hMB-d5-v2v.text" xml:space="preserve">
+        <source>Phone Number</source>
+        <target state="new">Phone Number</target>
+        <note>Class = "UILabel"; text = "Phone Number"; ObjectID = "hMB-d5-v2v";</note>
+      </trans-unit>
+      <trans-unit id="it9-9l-P1m.configuration.title" xml:space="preserve">
+        <source>Next</source>
+        <target state="new">Next</target>
+        <note>Class = "UIButton"; configuration.title = "Next"; ObjectID = "it9-9l-P1m";</note>
+      </trans-unit>
+      <trans-unit id="it9-9l-P1m.normalTitle" xml:space="preserve">
+        <source>Button</source>
+        <target state="new">Button</target>
+        <note>Class = "UIButton"; normalTitle = "Button"; ObjectID = "it9-9l-P1m";</note>
+      </trans-unit>
+      <trans-unit id="lLa-QS-bC8.normalTitle" xml:space="preserve">
+        <source>Button</source>
+        <target state="new">Button</target>
+        <note>Class = "UIButton"; normalTitle = "Button"; ObjectID = "lLa-QS-bC8";</note>
+      </trans-unit>
+      <trans-unit id="mUW-K1-c7f.normalTitle" xml:space="preserve">
+        <source>Button</source>
+        <target state="new">Button</target>
+        <note>Class = "UIButton"; normalTitle = "Button"; ObjectID = "mUW-K1-c7f";</note>
+      </trans-unit>
+      <trans-unit id="mV6-UQ-ydx.normalTitle" xml:space="preserve">
+        <source>Button</source>
+        <target state="new">Button</target>
+        <note>Class = "UIButton"; normalTitle = "Button"; ObjectID = "mV6-UQ-ydx";</note>
+      </trans-unit>
+      <trans-unit id="oIV-Yg-UME.text" xml:space="preserve">
+        <source>$20</source>
+        <target state="new">$20</target>
+        <note>Class = "UILabel"; text = "$20"; ObjectID = "oIV-Yg-UME";</note>
+      </trans-unit>
+      <trans-unit id="pKq-C6-Ui2.text" xml:space="preserve">
+        <source>Label</source>
+        <target state="new">Label</target>
+        <note>Class = "UILabel"; text = "Label"; ObjectID = "pKq-C6-Ui2";</note>
+      </trans-unit>
+      <trans-unit id="q7z-Gh-mRo.normalTitle" xml:space="preserve">
+        <source>Button</source>
+        <target state="new">Button</target>
+        <note>Class = "UIButton"; normalTitle = "Button"; ObjectID = "q7z-Gh-mRo";</note>
+      </trans-unit>
+      <trans-unit id="q50-Lu-H2M.text" xml:space="preserve">
+        <source>Arebic</source>
+        <target state="new">Arebic</target>
+        <note>Class = "UILabel"; text = "Arebic"; ObjectID = "q50-Lu-H2M";</note>
+      </trans-unit>
+      <trans-unit id="qJF-3t-BZ1.normalTitle" xml:space="preserve">
+        <source>Button</source>
+        <target state="new">Button</target>
+        <note>Class = "UIButton"; normalTitle = "Button"; ObjectID = "qJF-3t-BZ1";</note>
+      </trans-unit>
+      <trans-unit id="qu9-Vt-snS.text" xml:space="preserve">
+        <source>+ 9640021124</source>
+        <target state="new">+ 9640021124</target>
+        <note>Class = "UILabel"; text = "+ 9640021124"; ObjectID = "qu9-Vt-snS";</note>
+      </trans-unit>
+      <trans-unit id="r9M-8G-39a.text" xml:space="preserve">
+        <source>Your Wallet</source>
+        <target state="new">Your Wallet</target>
+        <note>Class = "UILabel"; text = "Your Wallet"; ObjectID = "r9M-8G-39a";</note>
+      </trans-unit>
+      <trans-unit id="rqs-h0-E2T.text" xml:space="preserve">
+        <source>Your Wallet Amount</source>
+        <target state="new">Your Wallet Amount</target>
+        <note>Class = "UILabel"; text = "Your Wallet Amount"; ObjectID = "rqs-h0-E2T";</note>
+      </trans-unit>
+      <trans-unit id="sOb-jd-0ls.text" xml:space="preserve">
+        <source>Add Work</source>
+        <target state="new">Add Work</target>
+        <note>Class = "UILabel"; text = "Add Work"; ObjectID = "sOb-jd-0ls";</note>
+      </trans-unit>
+      <trans-unit id="uak-NF-D9y.text" xml:space="preserve">
+        <source>Setting</source>
+        <target state="new">Setting</target>
+        <note>Class = "UILabel"; text = "Setting"; ObjectID = "uak-NF-D9y";</note>
+      </trans-unit>
+      <trans-unit id="vtt-Ra-aNc.text" xml:space="preserve">
+        <source>Privacy</source>
+        <target state="new">Privacy</target>
+        <note>Class = "UILabel"; text = "Privacy"; ObjectID = "vtt-Ra-aNc";</note>
+      </trans-unit>
+      <trans-unit id="wb7-c1-50R.text" xml:space="preserve">
+        <source>Conform Password</source>
+        <target state="new">Conform Password</target>
+        <note>Class = "UILabel"; text = "Conform Password"; ObjectID = "wb7-c1-50R";</note>
+      </trans-unit>
+      <trans-unit id="yQQ-to-uVV.text" xml:space="preserve">
+        <source>Find a Pharmacy</source>
+        <target state="new">Find a Pharmacy</target>
+        <note>Class = "UILabel"; text = "Find a Pharmacy"; ObjectID = "yQQ-to-uVV";</note>
+      </trans-unit>
+      <trans-unit id="ydk-fx-9wf.text" xml:space="preserve">
+        <source>Label</source>
+        <target state="new">Label</target>
+        <note>Class = "UILabel"; text = "Label"; ObjectID = "ydk-fx-9wf";</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="DoctorApp/InfoPlist.xcstrings" source-language="en" target-language="en" datatype="plaintext">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="15.1" build-num="15C65"/>
+    </header>
+    <body>
+      <trans-unit id="CFBundleName" xml:space="preserve">
+        <source>DoctorApp</source>
+        <target state="new">DoctorApp</target>
+        <note>Bundle name</note>
+      </trans-unit>
+      <trans-unit id="NSLocationAlwaysAndWhenInUseUsageDescription" xml:space="preserve">
+        <source/>
+        <target state="new"/>
+        <note>Privacy - Location Always and When In Use Usage Description</note>
+      </trans-unit>
+      <trans-unit id="NSLocationAlwaysUsageDescription" xml:space="preserve">
+        <source/>
+        <target state="new"/>
+        <note>Privacy - Location Always Usage Description</note>
+      </trans-unit>
+      <trans-unit id="NSLocationWhenInUseUsageDescription" xml:space="preserve">
+        <source/>
+        <target state="new"/>
+        <note>Privacy - Location When In Use Usage Description</note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,872 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		000CA6DED8A25F7DA7842BAE /* Pods_DoctorApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B61D8B54BE99E2C2F7B1C768 /* Pods_DoctorApp.framework */; };
+		0A033E04E461AC55981441A5 /* Pods_DoctorApp_DoctorAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96D39C137BF751931A03A96E /* Pods_DoctorApp_DoctorAppUITests.framework */; };
+		A452B172041819A3B091BA38 /* Pods_DoctorAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE54A1421FEE89E4B077080B /* Pods_DoctorAppTests.framework */; };
+		F145DA342BFB8E8300D44A39 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F145DA332BFB8E8300D44A39 /* WebViewController.swift */; };
+		F16BA6332BF35D0B0003F865 /* DoctorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F16BA6322BF35D0B0003F865 /* DoctorViewController.swift */; };
+		F16CF59F2BF88A3000DC1A28 /* DateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F16CF59D2BF88A3000DC1A28 /* DateViewController.swift */; };
+		F16CF5A02BF88A3000DC1A28 /* DateViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F16CF59E2BF88A3000DC1A28 /* DateViewController.xib */; };
+		F16CF5A22BF8A26300DC1A28 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F16CF5A12BF8A26300DC1A28 /* DetailsViewController.swift */; };
+		F16CF5AA2BF8DD1400DC1A28 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F16CF5A92BF8DD1400DC1A28 /* SWRevealViewController.m */; };
+		F16CF5AC2BF8DE2000DC1A28 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F16CF5AB2BF8DE2000DC1A28 /* MenuViewController.swift */; };
+		F16CF5AE2BF8EE3500DC1A28 /* SelectDoctorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F16CF5AD2BF8EE3500DC1A28 /* SelectDoctorViewController.swift */; };
+		F16CF5B12BF99E7100DC1A28 /* MenuTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F16CF5AF2BF99E7100DC1A28 /* MenuTableViewCell.swift */; };
+		F16CF5B22BF99E7100DC1A28 /* MenuTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F16CF5B02BF99E7100DC1A28 /* MenuTableViewCell.xib */; };
+		F16CF5B42BF9A33100DC1A28 /* OffersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F16CF5B32BF9A33000DC1A28 /* OffersViewController.swift */; };
+		F16CF5B62BF9A39000DC1A28 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F16CF5B52BF9A39000DC1A28 /* SettingsViewController.swift */; };
+		F16CF5B82BF9A3AC00DC1A28 /* HelpCenterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F16CF5B72BF9A3AC00DC1A28 /* HelpCenterViewController.swift */; };
+		F16CF5BA2BF9A7FA00DC1A28 /* WalletViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F16CF5B92BF9A7FA00DC1A28 /* WalletViewController.swift */; };
+		F16CF5BD2BF9ABC200DC1A28 /* OffersTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F16CF5BB2BF9ABC200DC1A28 /* OffersTableViewCell.swift */; };
+		F16CF5BE2BF9ABC200DC1A28 /* OffersTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F16CF5BC2BF9ABC200DC1A28 /* OffersTableViewCell.xib */; };
+		F16CF5C12BFB138000DC1A28 /* HelpTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F16CF5BF2BFB138000DC1A28 /* HelpTableViewCell.swift */; };
+		F16CF5C22BFB138000DC1A28 /* HelpTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F16CF5C02BFB138000DC1A28 /* HelpTableViewCell.xib */; };
+		F16CF5C42BFB17FD00DC1A28 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F16CF5C32BFB17FD00DC1A28 /* MapViewController.swift */; };
+		F18465DC2BF337A700E9D481 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18465DB2BF337A700E9D481 /* AppDelegate.swift */; };
+		F18465DE2BF337A700E9D481 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18465DD2BF337A700E9D481 /* SceneDelegate.swift */; };
+		F18465E02BF337A700E9D481 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18465DF2BF337A700E9D481 /* ViewController.swift */; };
+		F18465E32BF337A700E9D481 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F18465E12BF337A700E9D481 /* Main.storyboard */; };
+		F18465E52BF337A800E9D481 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F18465E42BF337A800E9D481 /* Assets.xcassets */; };
+		F18465E82BF337A800E9D481 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F18465E62BF337A800E9D481 /* LaunchScreen.storyboard */; };
+		F18465F32BF337A800E9D481 /* DoctorAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18465F22BF337A800E9D481 /* DoctorAppTests.swift */; };
+		F18465FD2BF337A800E9D481 /* DoctorAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18465FC2BF337A800E9D481 /* DoctorAppUITests.swift */; };
+		F18465FF2BF337A800E9D481 /* DoctorAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18465FE2BF337A800E9D481 /* DoctorAppUITestsLaunchTests.swift */; };
+		F184660C2BF338DE00E9D481 /* RegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F184660B2BF338DE00E9D481 /* RegistrationViewController.swift */; };
+		F184660E2BF33BC000E9D481 /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F184660D2BF33BC000E9D481 /* SignupViewController.swift */; };
+		F18466102BF3428400E9D481 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F184660F2BF3428400E9D481 /* HomeViewController.swift */; };
+		F18466142BF348BD00E9D481 /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18466132BF348BD00E9D481 /* DataModel.swift */; };
+		F18466172BF3495800E9D481 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18466152BF3495800E9D481 /* TableViewCell.swift */; };
+		F18466182BF3495800E9D481 /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F18466162BF3495800E9D481 /* TableViewCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F18465EF2BF337A800E9D481 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F18465D02BF337A700E9D481 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F18465D72BF337A700E9D481;
+			remoteInfo = DoctorApp;
+		};
+		F18465F92BF337A800E9D481 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F18465D02BF337A700E9D481 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F18465D72BF337A700E9D481;
+			remoteInfo = DoctorApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		18A4B6B4D75F72B7520C501B /* Pods-DoctorAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DoctorAppTests.debug.xcconfig"; path = "Target Support Files/Pods-DoctorAppTests/Pods-DoctorAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		3314F6DCD3CFB1634667838E /* Pods-DoctorApp-DoctorAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DoctorApp-DoctorAppUITests.debug.xcconfig"; path = "Target Support Files/Pods-DoctorApp-DoctorAppUITests/Pods-DoctorApp-DoctorAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		60A2BB9CC0758773166A4383 /* Pods-DoctorApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DoctorApp.release.xcconfig"; path = "Target Support Files/Pods-DoctorApp/Pods-DoctorApp.release.xcconfig"; sourceTree = "<group>"; };
+		77A1C48336679F084BD30280 /* Pods-DoctorApp-DoctorAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DoctorApp-DoctorAppUITests.release.xcconfig"; path = "Target Support Files/Pods-DoctorApp-DoctorAppUITests/Pods-DoctorApp-DoctorAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		96D39C137BF751931A03A96E /* Pods_DoctorApp_DoctorAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DoctorApp_DoctorAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A26AFA29620D65795AADE889 /* Pods-DoctorApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DoctorApp.debug.xcconfig"; path = "Target Support Files/Pods-DoctorApp/Pods-DoctorApp.debug.xcconfig"; sourceTree = "<group>"; };
+		B61D8B54BE99E2C2F7B1C768 /* Pods_DoctorApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DoctorApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE54A1421FEE89E4B077080B /* Pods_DoctorAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DoctorAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D895B25AFE4A0A05702BF027 /* Pods-DoctorAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DoctorAppTests.release.xcconfig"; path = "Target Support Files/Pods-DoctorAppTests/Pods-DoctorAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		F145DA332BFB8E8300D44A39 /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		F16BA6322BF35D0B0003F865 /* DoctorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctorViewController.swift; sourceTree = "<group>"; };
+		F16CF59D2BF88A3000DC1A28 /* DateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateViewController.swift; sourceTree = "<group>"; };
+		F16CF59E2BF88A3000DC1A28 /* DateViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DateViewController.xib; sourceTree = "<group>"; };
+		F16CF5A12BF8A26300DC1A28 /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		F16CF5A72BF8DD0800DC1A28 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		F16CF5A82BF8DD1400DC1A28 /* DoctorApp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DoctorApp-Bridging-Header.h"; sourceTree = "<group>"; };
+		F16CF5A92BF8DD1400DC1A28 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		F16CF5AB2BF8DE2000DC1A28 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		F16CF5AD2BF8EE3500DC1A28 /* SelectDoctorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectDoctorViewController.swift; sourceTree = "<group>"; };
+		F16CF5AF2BF99E7100DC1A28 /* MenuTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuTableViewCell.swift; sourceTree = "<group>"; };
+		F16CF5B02BF99E7100DC1A28 /* MenuTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MenuTableViewCell.xib; sourceTree = "<group>"; };
+		F16CF5B32BF9A33000DC1A28 /* OffersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OffersViewController.swift; sourceTree = "<group>"; };
+		F16CF5B52BF9A39000DC1A28 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		F16CF5B72BF9A3AC00DC1A28 /* HelpCenterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpCenterViewController.swift; sourceTree = "<group>"; };
+		F16CF5B92BF9A7FA00DC1A28 /* WalletViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletViewController.swift; sourceTree = "<group>"; };
+		F16CF5BB2BF9ABC200DC1A28 /* OffersTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OffersTableViewCell.swift; sourceTree = "<group>"; };
+		F16CF5BC2BF9ABC200DC1A28 /* OffersTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OffersTableViewCell.xib; sourceTree = "<group>"; };
+		F16CF5BF2BFB138000DC1A28 /* HelpTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpTableViewCell.swift; sourceTree = "<group>"; };
+		F16CF5C02BFB138000DC1A28 /* HelpTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HelpTableViewCell.xib; sourceTree = "<group>"; };
+		F16CF5C32BFB17FD00DC1A28 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		F16CF5C52BFB28C500DC1A28 /* PushNotification.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.entitlements; path = PushNotification.entitlements; sourceTree = "<group>"; };
+		F18465D82BF337A700E9D481 /* DoctorApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DoctorApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F18465DB2BF337A700E9D481 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F18465DD2BF337A700E9D481 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F18465DF2BF337A700E9D481 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F18465E22BF337A700E9D481 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F18465E42BF337A800E9D481 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F18465E72BF337A800E9D481 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F18465E92BF337A800E9D481 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F18465EE2BF337A800E9D481 /* DoctorAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DoctorAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F18465F22BF337A800E9D481 /* DoctorAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctorAppTests.swift; sourceTree = "<group>"; };
+		F18465F82BF337A800E9D481 /* DoctorAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DoctorAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F18465FC2BF337A800E9D481 /* DoctorAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctorAppUITests.swift; sourceTree = "<group>"; };
+		F18465FE2BF337A800E9D481 /* DoctorAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctorAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F184660B2BF338DE00E9D481 /* RegistrationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationViewController.swift; sourceTree = "<group>"; };
+		F184660D2BF33BC000E9D481 /* SignupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
+		F184660F2BF3428400E9D481 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		F18466132BF348BD00E9D481 /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
+		F18466152BF3495800E9D481 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		F18466162BF3495800E9D481 /* TableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F18465D52BF337A700E9D481 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				000CA6DED8A25F7DA7842BAE /* Pods_DoctorApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F18465EB2BF337A800E9D481 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A452B172041819A3B091BA38 /* Pods_DoctorAppTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F18465F52BF337A800E9D481 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A033E04E461AC55981441A5 /* Pods_DoctorApp_DoctorAppUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2EDEC5350D87FAE421040BF9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B61D8B54BE99E2C2F7B1C768 /* Pods_DoctorApp.framework */,
+				96D39C137BF751931A03A96E /* Pods_DoctorApp_DoctorAppUITests.framework */,
+				BE54A1421FEE89E4B077080B /* Pods_DoctorAppTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AFFD0E49FFE1551285556864 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A26AFA29620D65795AADE889 /* Pods-DoctorApp.debug.xcconfig */,
+				60A2BB9CC0758773166A4383 /* Pods-DoctorApp.release.xcconfig */,
+				3314F6DCD3CFB1634667838E /* Pods-DoctorApp-DoctorAppUITests.debug.xcconfig */,
+				77A1C48336679F084BD30280 /* Pods-DoctorApp-DoctorAppUITests.release.xcconfig */,
+				18A4B6B4D75F72B7520C501B /* Pods-DoctorAppTests.debug.xcconfig */,
+				D895B25AFE4A0A05702BF027 /* Pods-DoctorAppTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F18465CF2BF337A700E9D481 = {
+			isa = PBXGroup;
+			children = (
+				F18465DA2BF337A700E9D481 /* DoctorApp */,
+				F18465F12BF337A800E9D481 /* DoctorAppTests */,
+				F18465FB2BF337A800E9D481 /* DoctorAppUITests */,
+				F18465D92BF337A700E9D481 /* Products */,
+				AFFD0E49FFE1551285556864 /* Pods */,
+				2EDEC5350D87FAE421040BF9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F18465D92BF337A700E9D481 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F18465D82BF337A700E9D481 /* DoctorApp.app */,
+				F18465EE2BF337A800E9D481 /* DoctorAppTests.xctest */,
+				F18465F82BF337A800E9D481 /* DoctorAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F18465DA2BF337A700E9D481 /* DoctorApp */ = {
+			isa = PBXGroup;
+			children = (
+				F18465DB2BF337A700E9D481 /* AppDelegate.swift */,
+				F18465DD2BF337A700E9D481 /* SceneDelegate.swift */,
+				F16CF5C52BFB28C500DC1A28 /* PushNotification.entitlements */,
+				F18465DF2BF337A700E9D481 /* ViewController.swift */,
+				F145DA332BFB8E8300D44A39 /* WebViewController.swift */,
+				F16CF5C32BFB17FD00DC1A28 /* MapViewController.swift */,
+				F16CF5AD2BF8EE3500DC1A28 /* SelectDoctorViewController.swift */,
+				F16CF5AB2BF8DE2000DC1A28 /* MenuViewController.swift */,
+				F16CF5B92BF9A7FA00DC1A28 /* WalletViewController.swift */,
+				F16CF5B72BF9A3AC00DC1A28 /* HelpCenterViewController.swift */,
+				F16CF5BF2BFB138000DC1A28 /* HelpTableViewCell.swift */,
+				F16CF5C02BFB138000DC1A28 /* HelpTableViewCell.xib */,
+				F16CF5B52BF9A39000DC1A28 /* SettingsViewController.swift */,
+				F16CF5B32BF9A33000DC1A28 /* OffersViewController.swift */,
+				F16CF5BB2BF9ABC200DC1A28 /* OffersTableViewCell.swift */,
+				F16CF5BC2BF9ABC200DC1A28 /* OffersTableViewCell.xib */,
+				F16CF5AF2BF99E7100DC1A28 /* MenuTableViewCell.swift */,
+				F16CF5B02BF99E7100DC1A28 /* MenuTableViewCell.xib */,
+				F16CF5A12BF8A26300DC1A28 /* DetailsViewController.swift */,
+				F16BA6322BF35D0B0003F865 /* DoctorViewController.swift */,
+				F16CF59D2BF88A3000DC1A28 /* DateViewController.swift */,
+				F16CF59E2BF88A3000DC1A28 /* DateViewController.xib */,
+				F16CF5A72BF8DD0800DC1A28 /* SWRevealViewController.h */,
+				F16CF5A92BF8DD1400DC1A28 /* SWRevealViewController.m */,
+				F18466132BF348BD00E9D481 /* DataModel.swift */,
+				F184660F2BF3428400E9D481 /* HomeViewController.swift */,
+				F18466152BF3495800E9D481 /* TableViewCell.swift */,
+				F18466162BF3495800E9D481 /* TableViewCell.xib */,
+				F184660D2BF33BC000E9D481 /* SignupViewController.swift */,
+				F184660B2BF338DE00E9D481 /* RegistrationViewController.swift */,
+				F18465E12BF337A700E9D481 /* Main.storyboard */,
+				F18465E42BF337A800E9D481 /* Assets.xcassets */,
+				F18465E62BF337A800E9D481 /* LaunchScreen.storyboard */,
+				F18465E92BF337A800E9D481 /* Info.plist */,
+				F16CF5A82BF8DD1400DC1A28 /* DoctorApp-Bridging-Header.h */,
+			);
+			path = DoctorApp;
+			sourceTree = "<group>";
+		};
+		F18465F12BF337A800E9D481 /* DoctorAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				F18465F22BF337A800E9D481 /* DoctorAppTests.swift */,
+			);
+			path = DoctorAppTests;
+			sourceTree = "<group>";
+		};
+		F18465FB2BF337A800E9D481 /* DoctorAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F18465FC2BF337A800E9D481 /* DoctorAppUITests.swift */,
+				F18465FE2BF337A800E9D481 /* DoctorAppUITestsLaunchTests.swift */,
+			);
+			path = DoctorAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F18465D72BF337A700E9D481 /* DoctorApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F18466022BF337A800E9D481 /* Build configuration list for PBXNativeTarget "DoctorApp" */;
+			buildPhases = (
+				A063D95221D070EEEE972CE0 /* [CP] Check Pods Manifest.lock */,
+				F18465D42BF337A700E9D481 /* Sources */,
+				F18465D52BF337A700E9D481 /* Frameworks */,
+				F18465D62BF337A700E9D481 /* Resources */,
+				A8B8450794D232B8BF472F7F /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DoctorApp;
+			productName = DoctorApp;
+			productReference = F18465D82BF337A700E9D481 /* DoctorApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F18465ED2BF337A800E9D481 /* DoctorAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F18466052BF337A800E9D481 /* Build configuration list for PBXNativeTarget "DoctorAppTests" */;
+			buildPhases = (
+				A86A72E14059E6A67E46C9BD /* [CP] Check Pods Manifest.lock */,
+				F18465EA2BF337A800E9D481 /* Sources */,
+				F18465EB2BF337A800E9D481 /* Frameworks */,
+				F18465EC2BF337A800E9D481 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F18465F02BF337A800E9D481 /* PBXTargetDependency */,
+			);
+			name = DoctorAppTests;
+			productName = DoctorAppTests;
+			productReference = F18465EE2BF337A800E9D481 /* DoctorAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F18465F72BF337A800E9D481 /* DoctorAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F18466082BF337A800E9D481 /* Build configuration list for PBXNativeTarget "DoctorAppUITests" */;
+			buildPhases = (
+				0EE294C135B8AEB3570990C4 /* [CP] Check Pods Manifest.lock */,
+				F18465F42BF337A800E9D481 /* Sources */,
+				F18465F52BF337A800E9D481 /* Frameworks */,
+				F18465F62BF337A800E9D481 /* Resources */,
+				E5949CDCE8CE7883F690EA4C /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F18465FA2BF337A800E9D481 /* PBXTargetDependency */,
+			);
+			name = DoctorAppUITests;
+			productName = DoctorAppUITests;
+			productReference = F18465F82BF337A800E9D481 /* DoctorAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F18465D02BF337A700E9D481 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1510;
+				LastUpgradeCheck = 1510;
+				TargetAttributes = {
+					F18465D72BF337A700E9D481 = {
+						CreatedOnToolsVersion = 15.1;
+						LastSwiftMigration = 1510;
+					};
+					F18465ED2BF337A800E9D481 = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = F18465D72BF337A700E9D481;
+					};
+					F18465F72BF337A800E9D481 = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = F18465D72BF337A700E9D481;
+					};
+				};
+			};
+			buildConfigurationList = F18465D32BF337A700E9D481 /* Build configuration list for PBXProject "DoctorApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F18465CF2BF337A700E9D481;
+			productRefGroup = F18465D92BF337A700E9D481 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F18465D72BF337A700E9D481 /* DoctorApp */,
+				F18465ED2BF337A800E9D481 /* DoctorAppTests */,
+				F18465F72BF337A800E9D481 /* DoctorAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F18465D62BF337A700E9D481 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F16CF5BE2BF9ABC200DC1A28 /* OffersTableViewCell.xib in Resources */,
+				F16CF5B22BF99E7100DC1A28 /* MenuTableViewCell.xib in Resources */,
+				F16CF5C22BFB138000DC1A28 /* HelpTableViewCell.xib in Resources */,
+				F18465E82BF337A800E9D481 /* LaunchScreen.storyboard in Resources */,
+				F18466182BF3495800E9D481 /* TableViewCell.xib in Resources */,
+				F18465E52BF337A800E9D481 /* Assets.xcassets in Resources */,
+				F18465E32BF337A700E9D481 /* Main.storyboard in Resources */,
+				F16CF5A02BF88A3000DC1A28 /* DateViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F18465EC2BF337A800E9D481 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F18465F62BF337A800E9D481 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0EE294C135B8AEB3570990C4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DoctorApp-DoctorAppUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A063D95221D070EEEE972CE0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DoctorApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A86A72E14059E6A67E46C9BD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DoctorAppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A8B8450794D232B8BF472F7F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DoctorApp/Pods-DoctorApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DoctorApp/Pods-DoctorApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DoctorApp/Pods-DoctorApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E5949CDCE8CE7883F690EA4C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DoctorApp-DoctorAppUITests/Pods-DoctorApp-DoctorAppUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DoctorApp-DoctorAppUITests/Pods-DoctorApp-DoctorAppUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DoctorApp-DoctorAppUITests/Pods-DoctorApp-DoctorAppUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F18465D42BF337A700E9D481 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F16CF59F2BF88A3000DC1A28 /* DateViewController.swift in Sources */,
+				F18466142BF348BD00E9D481 /* DataModel.swift in Sources */,
+				F18466172BF3495800E9D481 /* TableViewCell.swift in Sources */,
+				F16CF5A22BF8A26300DC1A28 /* DetailsViewController.swift in Sources */,
+				F16BA6332BF35D0B0003F865 /* DoctorViewController.swift in Sources */,
+				F16CF5BA2BF9A7FA00DC1A28 /* WalletViewController.swift in Sources */,
+				F18465E02BF337A700E9D481 /* ViewController.swift in Sources */,
+				F16CF5AE2BF8EE3500DC1A28 /* SelectDoctorViewController.swift in Sources */,
+				F18465DC2BF337A700E9D481 /* AppDelegate.swift in Sources */,
+				F16CF5C12BFB138000DC1A28 /* HelpTableViewCell.swift in Sources */,
+				F16CF5AC2BF8DE2000DC1A28 /* MenuViewController.swift in Sources */,
+				F16CF5C42BFB17FD00DC1A28 /* MapViewController.swift in Sources */,
+				F16CF5B42BF9A33100DC1A28 /* OffersViewController.swift in Sources */,
+				F184660E2BF33BC000E9D481 /* SignupViewController.swift in Sources */,
+				F145DA342BFB8E8300D44A39 /* WebViewController.swift in Sources */,
+				F184660C2BF338DE00E9D481 /* RegistrationViewController.swift in Sources */,
+				F16CF5B82BF9A3AC00DC1A28 /* HelpCenterViewController.swift in Sources */,
+				F16CF5B62BF9A39000DC1A28 /* SettingsViewController.swift in Sources */,
+				F18465DE2BF337A700E9D481 /* SceneDelegate.swift in Sources */,
+				F16CF5BD2BF9ABC200DC1A28 /* OffersTableViewCell.swift in Sources */,
+				F18466102BF3428400E9D481 /* HomeViewController.swift in Sources */,
+				F16CF5AA2BF8DD1400DC1A28 /* SWRevealViewController.m in Sources */,
+				F16CF5B12BF99E7100DC1A28 /* MenuTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F18465EA2BF337A800E9D481 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F18465F32BF337A800E9D481 /* DoctorAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F18465F42BF337A800E9D481 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F18465FD2BF337A800E9D481 /* DoctorAppUITests.swift in Sources */,
+				F18465FF2BF337A800E9D481 /* DoctorAppUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F18465F02BF337A800E9D481 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F18465D72BF337A700E9D481 /* DoctorApp */;
+			targetProxy = F18465EF2BF337A800E9D481 /* PBXContainerItemProxy */;
+		};
+		F18465FA2BF337A800E9D481 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F18465D72BF337A700E9D481 /* DoctorApp */;
+			targetProxy = F18465F92BF337A800E9D481 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F18465E12BF337A700E9D481 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F18465E22BF337A700E9D481 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F18465E62BF337A800E9D481 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F18465E72BF337A800E9D481 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F18466002BF337A800E9D481 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F18466012BF337A800E9D481 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F18466032BF337A800E9D481 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A26AFA29620D65795AADE889 /* Pods-DoctorApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DoctorApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com..DoctorApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "DoctorApp/DoctorApp-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F18466042BF337A800E9D481 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 60A2BB9CC0758773166A4383 /* Pods-DoctorApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DoctorApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com..DoctorApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "DoctorApp/DoctorApp-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F18466062BF337A800E9D481 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 18A4B6B4D75F72B7520C501B /* Pods-DoctorAppTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com..DoctorAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DoctorApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DoctorApp";
+			};
+			name = Debug;
+		};
+		F18466072BF337A800E9D481 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D895B25AFE4A0A05702BF027 /* Pods-DoctorAppTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com..DoctorAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DoctorApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DoctorApp";
+			};
+			name = Release;
+		};
+		F18466092BF337A800E9D481 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3314F6DCD3CFB1634667838E /* Pods-DoctorApp-DoctorAppUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com..DoctorAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DoctorApp;
+			};
+			name = Debug;
+		};
+		F184660A2BF337A800E9D481 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77A1C48336679F084BD30280 /* Pods-DoctorApp-DoctorAppUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com..DoctorAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DoctorApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F18465D32BF337A700E9D481 /* Build configuration list for PBXProject "DoctorApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F18466002BF337A800E9D481 /* Debug */,
+				F18466012BF337A800E9D481 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F18466022BF337A800E9D481 /* Build configuration list for PBXNativeTarget "DoctorApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F18466032BF337A800E9D481 /* Debug */,
+				F18466042BF337A800E9D481 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F18466052BF337A800E9D481 /* Build configuration list for PBXNativeTarget "DoctorAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F18466062BF337A800E9D481 /* Debug */,
+				F18466072BF337A800E9D481 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F18466082BF337A800E9D481 /* Build configuration list for PBXNativeTarget "DoctorAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F18466092BF337A800E9D481 /* Debug */,
+				F184660A2BF337A800E9D481 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F18465D02BF337A700E9D481 /* Project object */;
+}
